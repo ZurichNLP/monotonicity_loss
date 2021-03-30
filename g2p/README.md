@@ -1,13 +1,13 @@
 Scripts and data used for the grapheme-to-phoneme experiments. 
 
-Data sets are CMUdict (https://github.com/cmusphinx/cmudict) and Nettalk (Sejnowski 1987, see  https://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+%28Nettalk+Corpus%29). For specific data splits, see /data.
+Data sets are CMUdict (https://github.com/cmusphinx/cmudict) and Nettalk (Sejnowski 1987, see  https://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+%28Nettalk+Corpus%29). For specific data splits, see ./data.
 
-See /scripts for examples on how to train and evaluate with sockeye.
+See ./scripts for examples on how to train and evaluate with sockeye.
 
  - data splits obtained from Shijie Wu, see Wu et al. (2018), (2019) and (2020).
  - hyperparameters for RNNs: as close as possible to to Wu et al. (2018), large setting. 
  - hyperparameters for transformers: as close as possible to Wu et al. (2020), except for dropout. We use dropout=0.3 on Nettalk, dropout=0.2 on CMUdict for all experiments (instead of 0.1 and 0.3 on both)
- - code to calculate PER/WER based on: https://github.com/shijie-wu/neural-transducer/blob/master/src/util.py
+ - code to calculate PER/WER in ./scripts/eval.py based on: https://github.com/shijie-wu/neural-transducer/blob/master/src/util.py
 
 
 References:
