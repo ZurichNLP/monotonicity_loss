@@ -1,6 +1,6 @@
 Code and scripts for the paper <insert url>. 
   
-Changes to sockeye include the additional loss, drophead (Zhou 2020), phoneme-error-rate as a metric, negative positional encodings for morphology tags, scoring functions to print monotonicity and the percentage of target positions with increased average attention, and also a function to print a attention scores graphically.
+Changes to sockeye include the additional loss, drophead (Zhou 2020), phoneme-error-rate as a metric, negative positional encodings for morphology tags, scoring functions to print monotonicity and the percentage of target positions with increased average attention, and also a function to visualize attention scores graphically.
 
 Data used in the paper:
   - Grapheme-to-Phoneme: CMUdict and NETTalk, data splits as in Wu and Cotterell (2019), Wu et al. (2018) and Wu et al. (2020)
