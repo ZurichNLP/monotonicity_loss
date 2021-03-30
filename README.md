@@ -11,9 +11,10 @@ Data used in the paper:
 
 
 References:
-Shijie Wu and Ryan Cotterell. 2019. Exact Hard Monotonic Attention for Character-level Transduction. In: Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 1530–1537, Florence, Italy. ACL
-Shijie Wu, Pamela Shapiro, and Ryan Cotterell. 2018. Hard non-monotonic Attention for Character-level Transduction. In: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 4425–4438, Brussels, Belgium. ACL.
-Shijie Wu, Ryan Cotterell, and Mans Hulden. 2020. Applying the Transformer to Character-level Transduction. Computing Research Repository, arXiv:2005.10213
-Min Zhang, Haizhou Li, Rafael E. Banchs, and A. Kumaran. 2015.  Whitepaper of NEWS 2015 Shared Task on Machine Transliteration. In: Proceedings of the Fifth Named Entity Workshop, pages 1-9, Beijing, China. ACL.
+
+- Shijie Wu and Ryan Cotterell. 2019. Exact Hard Monotonic Attention for Character-level Transduction. In: Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 1530–1537, Florence, Italy. ACL
+- Shijie Wu, Pamela Shapiro, and Ryan Cotterell. 2018. Hard non-monotonic Attention for Character-level Transduction. In: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 4425–4438, Brussels, Belgium. ACL.
+- Shijie Wu, Ryan Cotterell, and Mans Hulden. 2020. Applying the Transformer to Character-level Transduction. Computing Research Repository, arXiv:2005.10213
+- Min Zhang, Haizhou Li, Rafael E. Banchs, and A. Kumaran. 2015.  Whitepaper of NEWS 2015 Shared Task on Machine Transliteration. In: Proceedings of the Fifth Named Entity Workshop, pages 1-9, Beijing, China. ACL.
 
 
