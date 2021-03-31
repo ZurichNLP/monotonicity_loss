@@ -44,8 +44,8 @@ bash scripts/train_and_eval.sh
 
 For every language, this train and evaluate script will train the following models with seeds 1, 2 and 3:
 * base: a baseline transformer without monotonicity loss
-* mono_all_heads: transformer with monotonicity loss on all heads in all layers, lambda=0.1 and margin=0.1
-* mono_1_head: a transformer with monotonicity loss on one head in all layers, lambda=0.1 and margin=0.1
+* mono_all_heads: transformer with monotonicity loss on all heads in all layers, lambda=0.1 and margin=0
+* mono_1_head: a transformer with monotonicity loss on one head in all layers, lambda=0.1 and margin=0
 * rnn_base: a baseline RNN without monotonicity loss
 * rnn_mono: an RNN with monotonicity loss, lambda=0.1, margin=0
 
