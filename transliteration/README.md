@@ -21,20 +21,10 @@ The input to our models looks like this:
 The output of our models looks like this: 
 `バ ー ド ナ ー`
 
-The preprocessing script needs to process XML files and requires `lxml`:
-```
-pip install lxml
-```
-
 To create the format for training and evaluating the models, place the original XML files 
 in the respective script pair subfolders the `data` directory and call this script:
 ```
 bash scripts/preprocess.sh
-```
-
-The evaluation script uses `nltk` to compute the minimum edit distance:
-```
-pip install nltk
 ```
 
 To train and evaluate the models presented in the paper call this script:
