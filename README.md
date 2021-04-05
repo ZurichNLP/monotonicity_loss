@@ -8,7 +8,7 @@ Data used in the paper:
   - Transliteration: NEWS 2015 shared task (Zhang 2015), own data split (ids published)
   - Dialect Normalization:
 
-
+Note: requirements.txt contains some packages needed for preprocessing/visualization. To install the necessary packages for sockeye, use the relevant file for your cuda version in sockeye/requirements/*. 
 
 References:
 
