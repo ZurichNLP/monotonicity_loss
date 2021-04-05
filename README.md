@@ -1,4 +1,4 @@
-Code and scripts for the paper <insert url>.
+Code and scripts for the paper "On Biasing Transformer Attention Towards Monotonicity".
 
 Changes to sockeye include the additional loss, drophead (Zhou 2020), phoneme-error-rate as a metric, negative positional encodings for morphology tags, scoring functions to print monotonicity and the percentage of target positions with increased average attention, and also a function to visualize attention scores with the loss graphically.
 
