@@ -6,7 +6,7 @@ Changes to sockeye include the additional loss, drophead (Zhou 2020), phoneme-er
   - Grapheme-to-Phoneme: CMUdict and NETTalk, data splits as in Wu and Cotterell (2019), Wu et al. (2018) and Wu et al. (2020)
   - Morphological Inflection: [CoNLL-SIGMORPHON 2017](https://github.com/sigmorphon/conll2017) shared task dataset
   - Transliteration: NEWS 2015 shared task (Zhang 2015), own data split (ids published)
-  - Dialect Normalization: data split as in [Swiss German UD](https://github.com/noe-eva/SwissGermanUD/tree/master/monotonicity_splits)
+  - Dialect Normalization: data splits available here: [Swiss German UD](https://github.com/noe-eva/SwissGermanUD/tree/master/monotonicity_splits)
 
 **Note**: requirements.txt contains some packages needed for preprocessing/visualization. To install the necessary packages for sockeye, use the relevant file for your cuda version in sockeye/requirements/*. 
 
@@ -16,4 +16,3 @@ Changes to sockeye include the additional loss, drophead (Zhou 2020), phoneme-er
 - Shijie Wu, Ryan Cotterell, and Mans Hulden. 2020. Applying the Transformer to Character-level Transduction. Computing Research Repository, arXiv:2005.10213
 - Min Zhang, Haizhou Li, Rafael E. Banchs, and A. Kumaran. 2015.  Whitepaper of NEWS 2015 Shared Task on Machine Transliteration. In: Proceedings of the Fifth Named Entity Workshop, pages 1-9, Beijing, China. ACL.
 - Wangchunshu  Zhou, Tao Ge, Furu Wei, Ming Zhou,and Ke Xu. 2020. Scheduled  DropHead: A regularization method for transformer models. In: Findings of the Association for Computational Linguistics: EMNLP 2020, pages 1971–1980, Online. ACL.
-- Noëmi  Aepli  and  Simon  Clematide.  2018. Parsing Approaches for Swiss German. In Proceedings of the 3rd Swiss Text Analytics Conference, Winterthur, Switzerland.
