@@ -6,7 +6,7 @@ Data used in the paper:
   - Grapheme-to-Phoneme: CMUdict and NETTalk, data splits as in Wu and Cotterell (2019), Wu et al. (2018) and Wu et al. (2020)
   - Morphological Inflection: [CoNLL-SIGMORPHON 2017](https://github.com/sigmorphon/conll2017) shared task dataset
   - Transliteration: NEWS 2015 shared task (Zhang 2015), own data split (ids published)
-  - Dialect Normalization:
+  - Dialect Normalization: [Swiss German UD](https://github.com/noe-eva/SwissGermanUD/tree/master/monotonicity_splits)
 
 Note: requirements.txt contains some packages needed for preprocessing/visualization. To install the necessary packages for sockeye, use the relevant file for your cuda version in sockeye/requirements/*. 
 
